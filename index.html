@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video web site</title>
+    <!-- tailwind and daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" class="css">
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body class="container mx-auto">
+    <header>
+        <nav class="flex justify-between font-inter  mt-12 items-center">
+            <div class="font-bold text-3xl">
+                <h1><span class="text-red-700">PH</span> Tube</h1>
+            </div>
+            <div>
+                <button class="text-lg font-medium text-[#252525] font-inter bg-[#25252533] px-3 py-2 rounded-lg">Sort by view</button>
+            </div>
+            <div>
+                <button class="font-inter text-white bg-[#FF1F3D] text-lg font-medium px-4 py-2 rounded-lg">Blog</button>
+            </div>
+        </nav>
+        <div>
+            <div class="border-t-2 mt-9"></div>
+        </div>
+        <div id="Dynamic_btn" class="flex justify-center gap-8 mt-8">
+
+        </div>
+    </header>
+
+    <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-9" id="video_container">
+
+    </main>
+
+<script src="app.js"></script>
+</body>
+</html>
